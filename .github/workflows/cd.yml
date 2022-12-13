@@ -12,10 +12,10 @@ jobs:
     name: Build backend
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: backend
+      IMAGE_NAME: quarkus-hello
     defaults:
       run:
-        working-directory: ./backend
+        working-directory: ./
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
