@@ -12,7 +12,7 @@ jobs:
     name: Build backend
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: quarkus-hello
+      IMAGE_NAME: auction-backend
     defaults:
       run:
         working-directory: ./backend
